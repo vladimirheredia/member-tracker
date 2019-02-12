@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPaneSplash" prefHeight="473.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memberproject.controllers.SplashScreenController">
+   <children>
+      <ImageView fitHeight="488.0" fitWidth="889.0" layoutY="-7.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/worship-religious.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fitHeight="300.0" fitWidth="600.0" layoutX="144.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+     <ImageView layoutX="405.0" layoutY="319.0">
+     	<image>
+     		<Image url="@../../images/speed.gif" />
+     	</image>
+     </ImageView>
+   </children>
+</AnchorPane>

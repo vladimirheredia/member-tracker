@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="178.0" style="-fx-background-color: #2b3b50;"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="memberproject.controllers.SidePanelContentController">
+	<children>
+		<JFXButton id="home" fx:id="btnMembers" buttonType="RAISED"
+			onAction="#actionClick" prefHeight="74.0" prefWidth="213.0"
+			ripplerFill="#fc0000"
+			style="-fx-background-color: #2b3b50; -fx-background-image: url(&quot;@../../images/home.png&quot;);" />
+		<JFXButton id="member" fx:id="btnCreateMember" buttonType="RAISED"
+			onAction="#actionClick" prefHeight="74.0"
+			prefWidth="213.0" ripplerFill="#fc0000"
+			style="-fx-background-color: #2b3b50; -fx-background-image: url(&quot;@../../images/create-member.png&quot;);" />
+		<JFXButton id="events" fx:id="btnEvents" buttonType="RAISED"
+			onAction="#actionClick" prefHeight="74.0" prefWidth="213.0"
+			ripplerFill="#fc0000"
+			style="-fx-background-color: #2b3b50; -fx-background-image: url(&quot;@../../images/events.png&quot;);" />
+		<JFXButton id="exit" buttonType="RAISED"
+			onAction="#exit" prefHeight="74.0" prefWidth="213.0" ripplerFill="#2b3b50"
+			style="-fx-background-color: #2b3b50; -fx-background-image: url(&quot;@../../images/exit.png&quot;);" />
+	</children>
+</VBox>

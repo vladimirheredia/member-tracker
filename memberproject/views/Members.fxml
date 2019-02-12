@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.cell.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="700.0" style="-fx-background-color: #3D4857;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memberproject.controllers.MembersController">
+   <children>
+      <TableView fx:id="tbvMembers" layoutX="20.0" layoutY="113.0" prefHeight="200.0" prefWidth="661.0">
+        <columns>
+          <TableColumn prefWidth="169.0" text="First Name"> 
+          		<cellValueFactory>
+          			<PropertyValueFactory property="firstName" />
+          		</cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="139.0" text="Last Name">
+            	<cellValueFactory>
+          			<PropertyValueFactory property="lastName" />
+          		</cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="176.0" text="Telephone #">
+               <cellValueFactory>
+                  <PropertyValueFactory property="telephone" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="176.0" text="Is member?">
+               <cellValueFactory>
+                  <PropertyValueFactory property="memberType" />
+               </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <ImageView fitHeight="84.0" fitWidth="98.0" layoutX="14.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/user-list.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="113.0" layoutY="53.0" text="Member list" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <JFXTextField focusColor="WHITE" labelFloat="true" layoutX="373.0" layoutY="64.0" prefHeight="29.0" prefWidth="226.0" promptText="Search " unFocusColor="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="607.0" layoutY="63.0" ripplerFill="#f5f6f8" style="-fx-background-color: #eee;" text="Search" />
+      <Separator layoutX="20.0" layoutY="335.0" prefHeight="0.0" prefWidth="661.0" />
+   </children>
+</AnchorPane>

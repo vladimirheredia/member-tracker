@@ -1,0 +1,38 @@
+
+#home{
+    -fx-background-image: url("../../images/home.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; 
+}
+
+#member{
+	-fx-background-image: url("../../images/create-member.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; 
+}
+
+#events{
+	-fx-background-image: url("../../images/events.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; 
+}
+
+#exit{
+	-fx-background-image: url("../../images/exit.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; 
+}
+
+.button:hover {
+    -fx-background-color: #9ACD32;
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="608.0" prefWidth="823.0"
+	style="-fx-background-color: #3D4857;" xmlns="http://javafx.com/javafx/8"
+	stylesheets="@/images/styles.css"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="memberproject.controllers.MainController">
+	<children>
+		<AnchorPane fx:id="rootPane" layoutX="80.0" layoutY="56.0"
+			prefHeight="538.0" prefWidth="720.0" style="-fx-background-color: #3D4857;"
+			AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="23.0" />
+		<JFXDrawer fx:id="drawer" defaultDrawerSize="100.0"
+			prefHeight="608.0" prefWidth="66.0" />
+		<JFXHamburger fx:id="hamburger" alignment="TOP_RIGHT"
+			layoutX="770.0" layoutY="14.0" style="-fx-background-color: #fff;" />
+	</children>
+</AnchorPane>
